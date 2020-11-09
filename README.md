@@ -3,7 +3,8 @@ Get information about your currently playing music and control it with your Brow
 ## How it works
 The application is providing a restfull api to get information about currently playing media on your Windows 10 Device.   
 It uses the Windows 10 API (WinRT UWP) `GlobalSystemMediaTransportControlsSessionManager` class to get those information normaly seen when ajusting the computer volume (and much more!).   
-You can use this api to get information about all currently registered media applications (Groove Music, Windows Video Player, Chrome, Spotify, etc) and control them.   
+It depends on the monitored application and how much of the api it implements...   
+You can use this api to get information about all currently registered media applications (Groove Music, Windows Video Player, Chrome, **Spotify**, etc) and control them.   
    
 <img src="MediaTransportControls.jpg" alt="Screenshot" />
 
